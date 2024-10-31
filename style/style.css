@@ -1,0 +1,587 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+height: 70px;
+align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+}
+
+.navigation li {
+    margin-left: 30px;
+    list-style: none;
+}
+.navigation li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.signUp {
+padding: 12px 22px 12px 22px;
+border-radius: 10px ;
+background-color: #4D77FF;
+color: white;
+border: none;
+cursor:pointer;
+}
+.signUp:hover {
+    background-color:rgb(153, 159, 146);
+}
+
+.signIn {
+    padding: 12px 22px 12px 22px;
+    border-radius: 10px ;
+ background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.signIn:hover {
+    background-color: silver;
+}
+
+.block1 {
+display: flex;
+justify-content: space-between;
+
+
+}
+
+.block1-text h1 {
+ font-family: Manrope;
+font-size: 50px;
+font-weight: 700;
+margin-top: 50px;
+}
+
+.block1-text p {
+ font-family: Manrope;
+font-size: 14px;
+font-weight: 400;
+color: #696969;
+margin:26px 0px;
+
+}
+.block1-text button {
+padding: 16px 36px 16px 36px;
+border-radius: 10px ;
+background-color: #4D77FF;
+color: white;
+border: none;
+cursor: pointer;
+}
+.block1-text button:hover {
+background-color: rgb(153, 159, 146);
+}
+
+.block2-text {
+    text-align: center;
+    margin-top: 100px;
+}
+.block2-text h4 {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    color: #4D77FF;
+}
+.block2-text h2{
+    font-family: Manrope;
+font-size: 32px;
+font-weight: 700;
+
+}
+.card {
+    width: 287px;
+    padding: 50px 40px;
+    border-top: 4px solid #4D77FF;
+    box-shadow: 10px 5px 5px rgb(232, 227, 227);
+    border-radius: 0px 0px 10px 10px;
+}
+.card h4 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.card p {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px ;
+}
+.cards {
+display: flex;
+justify-content: space-between;
+margin-top: 50px;
+}
+.block3 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 100px;
+}
+.block3-text h4 {
+font-family: Manrope;
+font-size: 14px;
+font-weight: 700;
+color: #4D77FF;
+margin-top: 10px;
+}
+
+.block3-text h2 {
+    font-family: Manrope;
+font-size: 32px;
+font-weight: 700;
+margin-top: 10px;
+}
+.block3-text p {
+    font-family: Manrope;
+font-size: 14px;
+font-weight: 400;
+margin-top: 30px;
+}
+.nurs {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top:10px;
+}
+.kino{
+    cursor: pointer;
+}
+
+.kino:hover{
+background-color: #979595;
+}
+
+.nurs p {
+    font-family: Manrope;
+font-size: 14px;
+font-weight: 600;
+color: #121212;
+margin-top:auto;
+}
+.block3-doctors {
+    position: absolute;
+    right: 400px;
+    top: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 207px;
+    padding: 10px;
+    box-shadow: 5px  5px 5px 5px rgb(202, 205, 199);
+}
+.doc {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.btn {
+    background-color: #EDF1FF;
+padding: 8px 42px;
+border-radius: 10px ;
+border: none;
+color: #4D77FF;
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #a8a8a8;
+}
+
+.block3-text button {
+    padding: 16px 36px 16px 36px;
+border-radius: 10px ;
+background-color: #4D77FF;
+color: white;
+border: none;
+margin-top: 20px;
+ }
+ .cconteiner{
+    width: 1200px;
+    margin: 0 auto;
+    
+   
+}
+.block4{
+    margin-top: 150px;
+}
+.block4-text{
+    font-family: Manrope;
+    position: absolute;
+    margin-left: 800px;
+    /* margin-top: 200px; */
+}
+
+.felix{
+    font-family: Manrope;
+    color:  #4D77FF;
+
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+/* margin-top: 10px; */
+
+}
+.flex {
+    font-family: Manrope;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top:10px;
+}
+.flex p {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    color: #121212;
+    margin-top:auto;
+}
+.block4-text button {
+    font-family: Manrope;
+    padding: 16px 36px 16px 36px;
+    border-radius: 10px ;
+    background-color: #4D77FF;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.koishe:hover{
+    background-color: #a8a8a8;
+}
+
+.nurxan{
+width: 441px;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+margin-top: 10px;
+
+
+}
+.mars{
+width: 472px;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+margin-top: 26px;
+
+
+}
+.ccontainer{
+    width: 1000px;
+    margin: 0 auto;
+}
+.block5{
+    margin-top: 200px;
+}
+.block5-text{
+    margin-left: 290px;
+}
+.nurxxan{
+    font-family: Manrope;
+    width: 77px;
+  color:  #4D77FF; 
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+/* text-align: center; */
+margin-left: 175px;
+
+
+}
+.aiper{
+    width: 417px;
+   font-family: Manrope;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+/* letter-spacing: 0.015em; */
+text-align: center;
+
+}
+.block5-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    /* border-top: #4D77FF; */
+   
+}
+.block5-card{
+    font-family: Manrope;
+    width: 287px;
+height: 190px;
+top: 3px;
+padding: 50px 78px 44px 78px;
+border-radius: 0px 0px 10px 10px;
+border-top: 4px solid  #4D77FF;
+background-color: rgb(231, 247, 247);
+}
+.aina{
+    width: 84px;
+    font-family: Manrope;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 3%;
+text-align:left;
+}
+.syrgak{
+    font-family: Manrope;
+font-size: 14px;
+font-weight: 700;
+line-height: 28px;;
+text-align: left;
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+
+}
+.nurlan{
+    width: 84px;
+    font-family: Manrope;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+text-align: center;
+}
+.nurla{
+    /* width: 115px; */
+font-family: Manrope;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+
+text-align: center;
+
+}
+.nurl{
+  font-family: Manrope;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+
+text-align: center;
+
+}
+.ccconteinerr{
+    width: 1200px;
+    margin: 0 auto;
+}
+.block6-text{
+   margin-left: 350px;
+   margin-top: 200px;
+ 
+}
+ /* .block6-text2{ 
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 150px;
+ }*/
+.block6-text2{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 150px;
+    width: 533px;
+height: 160px;
+
+}
+.block6-text p{
+    margin-left: 100px;
+    margin-top: 11px;
+}
+.many{
+    font-family: Manrope;
+    width: 500px;
+height: 40px;
+top: 3143px;
+left: 1535px;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 1.5%;
+text-align: center;
+
+
+}
+.mach{
+    width: 288px;
+   font-family: Manrope;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+
+/* text-align: left; */
+
+}
+
+ /*.free{
+    font-family: Manrope;
+    width: 533px;
+font-size: 25px;
+font-weight: 400;
+line-height: 40px;
+text-align:left; }*/
+.free{
+    font-family: Manrope;
+font-size: 25px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.03em;
+text-align: left;
+
+}
+
+.apple{
+    font-family: Manrope;
+width: 149px;
+font-size: 20px;
+font-weight: 700;
+line-height: 20px;
+margin-top: 134px;
+}
+.banan{
+    font-family: Manrope;
+width: 208px;
+color: #696969;
+margin-top: 14px;
+font-size: 14px;
+font-weight: 700;
+line-height: 14px;
+
+
+
+}
+.mary{
+    margin-top: 150px;
+}
+.ckontainer{
+    width: 1400px;
+    margin: 0 auto;
+}
+.block7{
+display: flex;
+margin-top: 200px;
+
+
+}
+.block7-text{
+    display: flex;
+    position: absolute;
+    margin-left: 900px;
+    justify-content: space-between;
+
+}
+.nurch{
+    margin-left: 70px;
+}
+
+.nurtil{
+    width: 95px;
+ font-family: Manrope;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+
+text-align: left;
+
+}
+.flower{
+    width: 110px;
+    margin-top: 16px;
+ font-family: Manrope;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+
+text-align: left;
+
+}
+.flow{
+    font-family: Manrope;
+    width: 76px;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+margin-top: 10px;
+
+}
+.flowe{
+    font-family: Manrope;
+    width: 112px;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+margin-top: 10px;
+
+}
+.flowerr{
+    width: 91px;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    margin-top: 10px;
+    
+}
+.short{
+    font-family: Manrope;
+    width: 129px;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+
+}
+.arbus{
+    display: flex;
+   justify-content: space-evenly;
+}
+/* .mara{
+    margin-top: 200px;
+} */
+.maka{
+    font-family: Manrope;
+    color: #4D77FF;
+font-size: 24px;
+font-weight: 700;
+line-height: 32.78px;
+text-align: left;
+
+}
+.bara{
+    font-family: Manrope;
+    width: 175px;
+font-size: 24px;
+font-weight: 700;
+line-height: 32.78px;
+text-align: left;
+}
+.marak{
+    width: 429px;
+    margin-top: 12px;
+}
