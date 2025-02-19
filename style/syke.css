@@ -14,3 +14,12 @@ body {
   body.dark-theme a {
     color: #809fff;
   }
+
+
+  .btn-toggle{
+    margin-left: 540px;
+    width: 150px;
+    height: 40px;
+    background-color: #54f4fc;
+    color: #2c1515;
+  }
